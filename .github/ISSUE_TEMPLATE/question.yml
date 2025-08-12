@@ -1,0 +1,20 @@
+name: Question
+description: Ask for help or clarification
+labels: [question]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: What do you want to understand?
+      placeholder: e.g. I don't understand how to push my branch
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      placeholder: Commands, steps, or links
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?

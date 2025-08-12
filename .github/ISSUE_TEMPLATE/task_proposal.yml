@@ -1,0 +1,32 @@
+name: New Starter Task Proposal
+description: Propose a new beginner-friendly task
+labels: [enhancement, task-proposal]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Short Task Title
+      placeholder: e.g. Add French translation of Quick Start
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Clear, minimal action required
+      validations:
+        required: true
+  - type: input
+    id: difficulty
+    attributes:
+      label: Difficulty (1-5)
+      placeholder: 2
+  - type: textarea
+    id: learning
+    attributes:
+      label: Learning Outcome
+      placeholder: e.g. Practice adding a new file & updating docs index
+  - type: textarea
+    id: files
+    attributes:
+      label: Files Touched (estimated)
